@@ -1,71 +1,452 @@
 [
     {
-        "id":1,
-        "name":"Jungsik Yim",
-        "img":"https://static.emol.cl/emol50/Fotos/2016/01/03/file_20160103115312.jpg",
-        "experience":"10 years",
+        "id": 1,
+        "name": "Jungsik Yim",
+        "img": "https://static.emol.cl/emol50/Fotos/2016/01/03/file_20160103115312.jpg",
+        "experience": "10 years",
         "recipe": 20,
-        "likes":"10000",
+        "likes": "10000",
+        "recipe_info": [
+            {
+                "_id": 1,
+                "recipe_name": "CHICKEN BULGOGI (KOREAN BBQ CHICKEN)",
+                "about": "Chicken bulgogi is an easy and quick Korean BBQ chicken to prepare on a busy weeknight. You can grill this slightly sweet and savory chicken dish, broil it in the oven, or pan-fry it.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/01/Korean-spicy-chicken-bbq-1.jpg",
+                "ingredients": {
+                    "ingredients_1": "gochujang (Korean chili paste): an essential Korean cooking ingredient",
+                    "ingredients_2": "soy sauce",
+                    "ingredients_3": "light brown sugar",
+                    "ingredients_4": "garlic",
+                    "ingredients_5": "sesame oil"
+                },
+                "cooking_method": {
+                    "method_1": "Grill: Brush the hot grill grates with oil and lay the chicken on top. Grill for 3-4 minutes each side turning only once.",
+                    "method_2": "Broil: Put an oven shelving at 5-6 inch below the heat source, preheat the oven to broil. Place a greased cooling rack on a large baking sheet (half sheet size), lay the chicken pieces without overlapping. Broil 4-5 minutes on each side. Make sure to keep an eye on your chicken so that you don’t char them too much.",
+                    "method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper."
+                },
+                "rating": {
+                    "number": "4.8"
+                }
+            },
+                {
+                    "_id": 2,
+                    "recipe_name": "CRISPY KOREAN FRIED CHICKEN ",
+                    "about": "Make tasty Korean fried chicken at home with this easy recipe and tips. Double fry the chicken for ultimate crispiness, then coat them in homemade gochujang sauce – all in 40 minutes. Serve it up for game night or share with family and friends for a Chimaek feast!",
+                    "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/02/Korean-Fried-Chicken.jpg",
+                    "ingredients": {
+                        "ingredients_1": "chicken party wings - fresh or frozen (thawed)",
+                        "ingredients_2": "pureed ginger - reduce the gamy smell and adds a hint of aroma",
+                        "ingredients_3": "cornstarch - helps chicken to bind with the coating",
+                        "ingredients_4": "Korean chili paste (gochujang) - adds flavor, heat and thickness to the sauce",
+                        "ingredients_5": "apricot or strawberry jam - adds a fruity delicious taste in the sauce"
+                    },
+                    "cooking_method": {
+                        "method_1": "Heat oil in a wok or skillet over medium-low heat, to reach about 330˚F. Drop the chicken wings, shaking off the extra cornstarch coating, into the oil, and deep-fry for 3-4 minutes.The oil temperature should not be too hot and the chicken will fry slowly. If the oil bubbles vigorously, reduce the temperature.",
+                        "method_2":"After finishing all the batches of the first deep fry, raise the heat to medium, about 350˚F. Drop the chicken again into the hot oil and deep-fry until the coating turns a deep golden brown, about 1-2 minutes.Adjust the heat if it browns too quickly. Shake off the excess oil from the chicken and place them on a wire rack to allow the remaining oil to drip off the chicken.","method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper.",
+                        "method_3":"Using a pastry brush, apply sauce on the hot chicken wings. Alternately, you can pour the sauce over the chicken and toss them to coat. I prefer brushing so that I can control the amount of sauce per chicken.Garnish chicken wings with toasted sesame seeds or finely chopped nuts."
+                    },
+                    "rating": {
+                        "number": "4.6"
+                    }
+                },
+                {
+                    "_id": 3,
+                    "recipe_name": "CLASSIC DOENJANG JJIGAE (KOREAN SOYBEAN PASTE STEW)",
+                    "about": "This classic homemade doenjang jjigae recipe uses Korean soybean paste to create a deeply flavorful stew accented with tofu and fresh vegetables. It is easy to prepare, and ready in 25 minutes or less.",
+                    "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/03/doenjang-jjigae-2-800x1130.jpg",
+                    "ingredients": {
+                        "ingredients_1": "2 cups (480 ml) rice water,",
+                        "ingredients_2": "1 piece dried sea kelp (dashima)",
+                        "ingredients_3": "1 tsp Korean chili paste (gochujang)",
+                        "ingredients_4": "2 heaping tbsp Korean soybean paste (doenjang)",
+                        "ingredients_5": "1 fresh chili, sliced"
+                    },
+                    "cooking_method": {
+                        "method_1": "To create the stew with authentic flavor, you all need Korean soybean paste (doenjang) as a base. For an extra depth of flavor, try adding a small amount of Korean chili paste (gochujang) to your stew.This might sound unusual, but it can really enhance the dish. You can also add a little bit of Korean chili flakes to give it a slight kick.Note that this recipe is similar to the Korean BBQ restaurant-style doenjang stew recipe found in my cookbook; Korean Cooking Favorites. By combining these three ingredients, you can create a delicious stew that will impress even your Korean friends.",
+                        "method_2":"As someone who uses a variety of Korean soup stocks in my cooking, it should come as no surprise that a good doenjang jjigae starts with a good stock. People typically use a high-quality anchovy stock. However, I like to take things up a notch by using rice water instead of plain water as the base.The water left over after rinsing rice is simply rice water. It contains starch that can thicken the stew and add depth to its flavor. If you prefer a thinner stew, you can use plain water instead.To make the stock, all you need to do is simmer dried anchovies and a piece of dried sea kelp in the rice starch water for 3-4 minutes. Then, simply discard the anchovies and sea kelp, and your stock is ready to use!",
+                        "method_3":"onion, zucchini, tofu, mushroom, fresh chili and also can add thin slices of beef or pork, clam, shrimp, crab, watercress, radish, potato, mushroom, bean sprouts, kale, turnip green, etc."
+                    },
+                    "rating": {
+                        "number": "4.6"
+                    }
+                }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jim Deo",
+        "img": "https://img.freepik.com/free-photo/happy-cook-smelling-salad-with-meat-plate_23-2148040176.jpg?w=740&t=st=1683011874~exp=1683012474~hmac=edf353f2da75fe41a2de304b08a94f66a2637024033e9ca5543ad3af3c06d956",
+        "experience": "3 years",
+        "recipe": 10,
+        "likes": "1000",
+        "recipe_info": [
+            {
+                "_id": 1,
+                "recipe_name": "DAKGANGJEONG (KOREAN CHICKEN NUGGETS)",
+                "about": "Dakgangjeong is a Korean dish made of crispy, bite-sized pieces of boneless chicken thigh that are coated in a sweet and spicy sauce. It is often served as a snack or appetizer.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/03/Korean-fried-chicken-nuggets1-800x1130.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken party wings - fresh or frozen (thawed)",
+                    "ingredients_2": "pureed ginger - reduce the gamy smell and adds a hint of aroma",
+                    "ingredients_3": "cornstarch - helps chicken to bind with the coating",
+                    "ingredients_4": "Korean chili paste (gochujang) - adds flavor, heat and thickness to the sauce",
+                    "ingredients_5": "apricot or strawberry jam - adds a fruity delicious taste in the sauce"
+                },
+                "cooking_method": {
+                    "method_1": "Heat oil in a wok or skillet over medium-low heat, to reach about 330˚F. Drop the chicken wings, shaking off the extra cornstarch coating, into the oil, and deep-fry for 3-4 minutes.The oil temperature shouldn’t be too hot and the chicken will fry slowly. If the oil bubbles vigorously, reduce the temperature.",
+                    "method_2":"After finishing all the batches of the first deep fry, raise the heat to medium, about 350˚F. Drop the chicken again into the hot oil and deep-fry until the coating turns a deep golden brown, about 1-2 minutes.Adjust the heat if it browns too quickly. Shake off the excess oil from the chicken and place them on a wire rack to allow the remaining oil to drip off the chicken.","method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper.",
+                    "method_3":"Using a pastry brush, apply sauce on the hot chicken wings. Alternately, you can pour the sauce over the chicken and toss them to coat. I prefer brushing so that I can control the amount of sauce per chicken.Garnish chicken wings with toasted sesame seeds or finely chopped nuts."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 2,
+                "recipe_name": "KIMBAP (KOREAN SEAWEED RICE ROLL)",
+                "about": "Kimbap is Korean seaweed rice roll including rice, vegetables, and seaweed. It serves as a perfect finger food. This easy to follow recipe help you make beautiful Korean kimbap at home.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/02/kimbap-4.jpg",
+                "ingredients": {
+                    "ingredients_1": "2 cups (480 ml, about 450 g) uncooked short grain white rice",
+                    "ingredients_2": "2 tbsp Korean plum extract (maeshil cheong)",
+                    "ingredients_3": "6 strips pickled radish (danmuji), 1/2 inch thick, drained",
+                    "ingredients_4": "1 tbsp sweet rice wine (mirim)",
+                    "ingredients_5": "1 tbsp corn syrup"
+                },
+                "cooking_method": {
+                    "method_1": "Make sure to have all your ingredients ready and in one place.Cut three sheets of seaweed in half and set them aside.",
+                    "method_2":"Place a full sheet of seaweed, shiny side down, longer side toward you, on a bamboo rolling mat.Spread about 1 cup of rice (1/6 amount) evenly on the seaweed leaving 1 inch of space at the end.Lay a half seaweed sheet in the middle of rice.Put filling ingredients on top of the half seaweed sheet in a contrasting color pattern.",
+                    "method_3":"Lift the entire end of mat from your side with both hands, roll over to cover the fillings, tucking in the filling with your fingers.Put firm pressure on the roll and continue to roll again as you roll away the mat until it reaches to the end.The finished roll should have an even thickness.Place on a platter, seam side down, while you are making another. Cut into 1/2 inch thick slices with a sharp knife."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 3,
+                "recipe_name": "HOMEMADE DAKGALBI (SPICY KOREAN CHICKEN STIR-FRY)",
+                "about": "Dakgalbi is a spicy Korean chicken stir fry made with chicken thighs, cabbage, rice cake, and sweet potato in a gochujang-based sauce. The original recipe is from Chuncheon.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/12/Korean-chicken-stir-fry-2-800x1130.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken thigh — use boneless and skinless",
+                    "ingredients_2": "vegetables — cabbage, onion, perilla leaves, and sweet potato",
+                    "ingredients_3": "rice cake — tteokbokki rice cakes make the dish satisfying. Soak them in water for 10 minutes before using.",
+                    "ingredients_4": "gochujang (Korean chili paste) and gochugaru (Korean chili flakes) — add flavor and spicy heat",
+                    "ingredients_5": "soy sauce, rice wine, & sesame oil — aromatic seasonings"
+                },
+                "cooking_method": {
+                    "method_1": "Make the sauce by mixing all the ingredients in a small mixing bowl. Set aside 1 tablespoon of sauce if you are making fried rice at the end.Toss the chicken with 1/2 of the sauce in a mixing bowl and set aside to marinate.Soak the rice cakes in water for 10 minutes and drain. Dice the chicken thighs into bite-sized pieces. Dice the cabbage and slice the onion and perilla leaves. For the sweet potatoes, try to cut them into thin wedges or matchsticks.",
+                    "method_2":"When it starts to make a loud sizzling sound, begin tossing everything to combine. Stir-fry until chicken is fully cooked, and the rice cake and sweet potato are tender, about 6-7 minutes. If your food seems to be sticking too much to the skillet, add 2-3 tablespoons of water to create steam to release the sauce on the skillet and to cook evenly.",
+                    "method_3":"Add the remaining perilla leaves toward the end of stir-frying. Serve immediately when it is hot."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Grant Achatz",
+        "img": "https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=740&t=st=1683039589~exp=1683040189~hmac=4dd690cc2211d0e3b6761e7ceea83001e0ce7c6e9b8059772c2e7f29337d8bec",
+        "experience": "5 years",
+        "recipe": 8,
+        "likes": "5000",
+        
+ "recipe_info":[
+    {
+        "_id": 1,
+        "recipe_name": "HOMEMADE DAKGALBI (SPICY KOREAN CHICKEN STIR-FRY)",
+        "about": "Dakgalbi is a spicy Korean chicken stir fry made with chicken thighs, cabbage, rice cake, and sweet potato in a gochujang-based sauce. The original recipe is from Chuncheon.",
+        "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/12/Korean-chicken-stir-fry-2-800x1130.jpg",
+        "ingredients": {
+            "ingredients_1": "chicken thigh — use boneless and skinless",
+            "ingredients_2": "vegetables — cabbage, onion, perilla leaves, and sweet potato",
+            "ingredients_3": "rice cake — tteokbokki rice cakes make the dish satisfying. Soak them in water for 10 minutes before using.",
+            "ingredients_4": "gochujang (Korean chili paste) and gochugaru (Korean chili flakes) — add flavor and spicy heat",
+            "ingredients_5": "soy sauce, rice wine, & sesame oil — aromatic seasonings"
+        },
+        "cooking_method": {
+            "method_1": "Make the sauce by mixing all the ingredients in a small mixing bowl. Set aside 1 tablespoon of sauce if you are making fried rice at the end.Toss the chicken with 1/2 of the sauce in a mixing bowl and set aside to marinate.Soak the rice cakes in water for 10 minutes and drain. Dice the chicken thighs into bite-sized pieces. Dice the cabbage and slice the onion and perilla leaves. For the sweet potatoes, try to cut them into thin wedges or matchsticks.",
+            "method_2":"When it starts to make a loud sizzling sound, begin tossing everything to combine. Stir-fry until chicken is fully cooked, and the rice cake and sweet potato are tender, about 6-7 minutes. If your food seems to be sticking too much to the skillet, add 2-3 tablespoons of water to create steam to release the sauce on the skillet and to cook evenly.",
+            "method_3":"Add the remaining perilla leaves toward the end of stir-frying. Serve immediately when it is hot."
+        },
+        "rating": {
+            "number": "4.6"
+        }
+    },
+    {
+        "_id": 2,
+        "recipe_name": "AUTHENTIC BIBIMBAP",
+        "about": "Make authentic bibimbap at home in under an hour with tips, tool recommendations, and recipe variations. This dish features rice, sautéed vegetables, quick ground beef bulgogi, and a fried egg, topped with homemade bibimbap sauce.",
+        "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/03/Bibimbap-3.jpg",
+        "ingredients": {
+            "ingredients_1": "1 tbsp sesame oil",
+            "ingredients_2": "1 tbsp toasted sesame seeds",
+            "ingredients_3": "6 cup freshly cooked white rice.",
+            "ingredients_4": "1 lb Korean radish, sliced into very thin matchsticks",
+            "ingredients_5": "2 small zucchini, sliced."
+        },
+        "cooking_method": {
+            "method_1": "Blanch sprouts in boiling water for 5 minutes and drain.Season with a a mixture of minced garlic, Korean soup soy sauce, salt, sesame oil, sesame seeds, and finely chopped green onions. Toss well.",
+            "method_2":"Slice radish into thin matchsticks. Heat oil in a skillet over medium heat. Add minced garlic and cook for 30 seconds.Add radish slices and a couple pinches of salt, and toss well. Cover with a lid and cook until soft, about 2 minutes.Drizzle a little sesame oil. Taste and add more salt if needed.",
+            "method_3":"Heat 1 tablespoon oil in a skillet over medium heat. Add garlic, zucchini slices, and salt. Stir fry until soft, about 1-2 minutes.Add sesame oil and sesame seeds. Toss well.Stir-fry watercress in hot oil with minced garlic; cook for 1 minute.Drizzle Korean soup soy sauce and cook until wilted.Add 1 tablespoon oil in a skillet, add the minced garlic and the mushrooms; stir fry for 1 minute. Drizzle Korean soup soy sauce and cook until soft.Stir-fry carrot in hot oil with salt and cook together for 30 seconds. Pour in 2 tablespoons water to create steam and cover with a lid immediately. Cook for 1-2 minutes until soft."
+        },
+        "rating": {
+            "number": "4.6"
+        }
+    },
+    {
+        "_id": 3,
+        "recipe_name": "QUICK BRAISED TOFU",
+        "about": "This quick Korean braised tofu recipe turns bland tofu into a full flavored dish. Pan-seared tofu slices are braised in a spicy savory sauce. Adjust the amount of Korean chili flakes to suit your spice level.",
+        "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/06/Braised-Tofu-thumbnail-728x728.jpg",
+        "ingredients": {
+            "ingredients_1": "Korean chili flakes (gochugaru)",
+            "ingredients_2": "2 cloves garlic, finely minced",
+            "ingredients_3": "3 tbsp soy sauce",
+            "ingredients_4": "1/2 - 1 tbsp Korean chili flakes (gochugaru)",
+            "ingredients_5": "2 cloves garlic, finely minced"
+        },
+        "cooking_method": {
+            "method_1": "To make the sauce, combine soy sauce, Korean chili flakes, garlic, sugar, sesame oil, black pepper. Pour anchovy stock or water and mix well; set aside.",
+            "method_2":"Slice tofu into 1/2-inch thickness. Press tofu slices slightly firmly with a piece of paper towel to remove excess moisture.",
+            "method_3":"Heat oil in a skillet over medium heat. Add tofu slices and sear for 3-4 minutes on each side until golden and crisp.Add onion and chili on top of tofu. Pour the sauce evenly over the tofu and let it boil. Cover with lid and cook for 4-5 minutes on medium low heat."
+        },
+        "rating": {
+            "number": "4.6"
+        }
+    }
+
+]
+       
+    },
+    {
+        "id": 4,
+        "name": "Sant Maria",
+        "img": "https://img.freepik.com/free-photo/female-chef-standing-with-crossed-arms-white-uniform-looking-happy_176474-13476.jpg?w=740&t=st=1683039732~exp=1683040332~hmac=5fbbea06c812ef54bdd1e70593321b0d7ee8c79cd3f5d0b956c98be5ce09e94c",
+        "experience": "6 years",
+        "recipe": 15,
+        "likes": "10000",
         "recipe_info":[
             {
-                "_id":1,
-                "name":"CHICKEN BULGOGI (KOREAN BBQ CHICKEN)",
-                "image_url":"https://www.beyondkimchee.com/wp-content/uploads/2021/01/Korean-spicy-chicken-bbq-1.jpg",
-                "ingredients":{
-                    "ingredients1":"gochujang (Korean chili paste): an essential Korean cooking ingredient",
-                    "ingredients2":"soy sauce",
-                    "ingredients3":"light brown sugar",
-                    "ingredients4":"garlic",
-                    "ingredients5":"sesame oil"
+                "_id": 1,
+                "recipe_name": "ICONIC BUDAE JJIGAE RECIPE (KOREAN ARMY STEW)",
+                "about": "Korean army stew, known as Budae Jjigae, is Korean-American fusion dish. It's made with canned processed meats such as Spam, but with the Korean flavor of kimchi, tofu, and instant ramen noodles.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/04/Budae-Jjigae-thumbnail-728x728.jpg",
+                "ingredients": {
+                    "ingredients_1": "beef & beans",
+                    "ingredients_2": "3 tbsp Korean chili flakes (gochugaru)",
+                    "ingredients_3": "1 tbsp Korean chili paste (gochujang)",
+                    "ingredients_4": "2/3 cup sour kimchi, sliced",
+                    "ingredients_5": "4 cup chicken stock, low sodium"
                 },
-                ""
+                "cooking_method": {
+                    "method_1": "Mix together Korean chili flakes (gochugaru), gochujang, soy sauces, garlic, and pepper in a small mixing bowl; set aside.Put slices of onion on the bottom of a shallow pan. Arrange the jjigae fillings (Spam slices, hot dogs, sausage, tofu, mushroom, kimchi, and etc).",
+                    "method_2":"Add instant ramen noodles, cheese and the seasoning paste. Pour in enough stock to barely cover everything.Adding plain water results in bland tasting broth. I recommend using low-sodim (or no-salt) chicken stock instead of water to add more umami and depth to the flavor.",
+                    "method_3":"Place the pan on the stove (I recommend using a portable burner right on the table) and bring the stew to a boil. Reduce the heat to low and simmer. Stir the seasoning paste to distribute it throughout the stew. Stir ramen noodles to cook evenly in the simmering stock."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 2,
+                "recipe_name": "HOMEMADE DAKGALBI (SPICY KOREAN CHICKEN STIR-FRY)",
+                "about": "Dakgalbi is a spicy Korean chicken stir fry made with chicken thighs, cabbage, rice cake, and sweet potato in a gochujang-based sauce. The original recipe is from Chuncheon.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/12/Korean-chicken-stir-fry-2-800x1130.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken thigh — use boneless and skinless",
+                    "ingredients_2": "vegetables — cabbage, onion, perilla leaves, and sweet potato",
+                    "ingredients_3": "rice cake — tteokbokki rice cakes make the dish satisfying. Soak them in water for 10 minutes before using.",
+                    "ingredients_4": "gochujang (Korean chili paste) and gochugaru (Korean chili flakes) — add flavor and spicy heat",
+                    "ingredients_5": "soy sauce, rice wine, & sesame oil — aromatic seasonings"
+                },
+                "cooking_method": {
+                    "method_1": "Make the sauce by mixing all the ingredients in a small mixing bowl. Set aside 1 tablespoon of sauce if you are making fried rice at the end.Toss the chicken with 1/2 of the sauce in a mixing bowl and set aside to marinate.Soak the rice cakes in water for 10 minutes and drain. Dice the chicken thighs into bite-sized pieces. Dice the cabbage and slice the onion and perilla leaves. For the sweet potatoes, try to cut them into thin wedges or matchsticks.",
+                    "method_2":"When it starts to make a loud sizzling sound, begin tossing everything to combine. Stir-fry until chicken is fully cooked, and the rice cake and sweet potato are tender, about 6-7 minutes. If your food seems to be sticking too much to the skillet, add 2-3 tablespoons of water to create steam to release the sauce on the skillet and to cook evenly.",
+                    "method_3":"Add the remaining perilla leaves toward the end of stir-frying. Serve immediately when it is hot."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 3,
+                "recipe_name": "DAKGANGJEONG (KOREAN CHICKEN NUGGETS)",
+                "about": "Dakgangjeong is a Korean dish made of crispy, bite-sized pieces of boneless chicken thigh that are coated in a sweet and spicy sauce. It is often served as a snack or appetizer.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/03/Korean-fried-chicken-nuggets1-800x1130.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken party wings - fresh or frozen (thawed)",
+                    "ingredients_2": "pureed ginger - reduce the gamy smell and adds a hint of aroma",
+                    "ingredients_3": "cornstarch - helps chicken to bind with the coating",
+                    "ingredients_4": "Korean chili paste (gochujang) - adds flavor, heat and thickness to the sauce",
+                    "ingredients_5": "apricot or strawberry jam - adds a fruity delicious taste in the sauce"
+                },
+                "cooking_method": {
+                    "method_1": "Heat oil in a wok or skillet over medium-low heat, to reach about 330˚F. Drop the chicken wings, shaking off the extra cornstarch coating, into the oil, and deep-fry for 3-4 minutes.The oil temperature shouldn’t be too hot and the chicken will fry slowly. If the oil bubbles vigorously, reduce the temperature.",
+                    "method_2":"After finishing all the batches of the first deep fry, raise the heat to medium, about 350˚F. Drop the chicken again into the hot oil and deep-fry until the coating turns a deep golden brown, about 1-2 minutes.Adjust the heat if it browns too quickly. Shake off the excess oil from the chicken and place them on a wire rack to allow the remaining oil to drip off the chicken.","method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper.",
+                    "method_3":"Using a pastry brush, apply sauce on the hot chicken wings. Alternately, you can pour the sauce over the chicken and toss them to coat. I prefer brushing so that I can control the amount of sauce per chicken.Garnish chicken wings with toasted sesame seeds or finely chopped nuts."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
             }
+            
+
         ]
         
     },
     {
-        "id":2,
-        "name":"Jim Deo",
-        "img":"https://img.freepik.com/free-photo/happy-cook-smelling-salad-with-meat-plate_23-2148040176.jpg?w=740&t=st=1683011874~exp=1683012474~hmac=edf353f2da75fe41a2de304b08a94f66a2637024033e9ca5543ad3af3c06d956",
-        "experience":"3 years",
-        "recipe": 10,
-        "likes":"1000"
-        
-    },
-    {
-        "id":3,
-        "name":"Grant Achatz",
-        "img":"https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=740&t=st=1683039589~exp=1683040189~hmac=4dd690cc2211d0e3b6761e7ceea83001e0ce7c6e9b8059772c2e7f29337d8bec",
-        "experience":"5 years",
-        "recipe": 8,
-        "likes":"5000"
-        
-    },
-    {
-        "id":4,
-        "name":"Sant Maria",
-        "img":"https://img.freepik.com/free-photo/female-chef-standing-with-crossed-arms-white-uniform-looking-happy_176474-13476.jpg?w=740&t=st=1683039732~exp=1683040332~hmac=5fbbea06c812ef54bdd1e70593321b0d7ee8c79cd3f5d0b956c98be5ce09e94c",
-        "experience":"6 years",
-        "recipe": 15,
-        "likes":"10000"
-        
-    },
-    {
-        "id":5,
-        "name":"Kim Yun",
-        "img":"https://img.freepik.com/free-photo/experienced-sushi-chef-asian-woman-putting-sushi-plate-looking-inspired_259150-58660.jpg?w=740&t=st=1683039805~exp=1683040405~hmac=4148633eb882fb3364732b64362b91cd25e21c35e3ad64bb810a0676698fbede",
-        "experience":"2 years",
+        "id": 5,
+        "name": "Kim Yun",
+        "img": "https://img.freepik.com/free-photo/experienced-sushi-chef-asian-woman-putting-sushi-plate-looking-inspired_259150-58660.jpg?w=740&t=st=1683039805~exp=1683040405~hmac=4148633eb882fb3364732b64362b91cd25e21c35e3ad64bb810a0676698fbede",
+        "experience": "2 years",
         "recipe": 6,
-        "likes":"9000"
+        "likes": "9000",
+        "recipe_info":[
+            {
+                "_id": 1,
+                "recipe_name": " BUDAE JJIGAE RECIPE (KOREAN ARMY STEW)",
+                "about": "Korean army stew, known as Budae Jjigae, is Korean-American fusion dish. It's made with canned processed meats such as Spam, but with the Korean flavor of kimchi, tofu, and instant ramen noodles.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/04/Budae-Jjigae-thumbnail-728x728.jpg",
+                "ingredients": {
+                    "ingredients_1": "beef & beans",
+                    "ingredients_2": "3 tbsp Korean chili flakes (gochugaru)",
+                    "ingredients_3": "1 tbsp Korean chili paste (gochujang)",
+                    "ingredients_4": "2/3 cup sour kimchi, sliced",
+                    "ingredients_5": "4 cup chicken stock, low sodium"
+                },
+                "cooking_method": {
+                    "method_1": "Mix together Korean chili flakes (gochugaru), gochujang, soy sauces, garlic, and pepper in a small mixing bowl; set aside.Put slices of onion on the bottom of a shallow pan. Arrange the jjigae fillings (Spam slices, hot dogs, sausage, tofu, mushroom, kimchi, and etc).",
+                    "method_2":"Add instant ramen noodles, cheese and the seasoning paste. Pour in enough stock to barely cover everything.Adding plain water results in bland tasting broth. I recommend using low-sodim (or no-salt) chicken stock instead of water to add more umami and depth to the flavor.",
+                    "method_3":"Place the pan on the stove (I recommend using a portable burner right on the table) and bring the stew to a boil. Reduce the heat to low and simmer. Stir the seasoning paste to distribute it throughout the stew. Stir ramen noodles to cook evenly in the simmering stock."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 2,
+                "recipe_name": "KIMBAP (KOREAN SEAWEED RICE ROLL)",
+                "about": "Kimbap is Korean seaweed rice roll including rice, vegetables, and seaweed. It serves as a perfect finger food. This easy to follow recipe help you make beautiful Korean kimbap at home.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/02/kimbap-4.jpg",
+                "ingredients": {
+                    "ingredients_1": "2 cups (480 ml, about 450 g) uncooked short grain white rice",
+                    "ingredients_2": "2 tbsp Korean plum extract (maeshil cheong)",
+                    "ingredients_3": "6 strips pickled radish (danmuji), 1/2 inch thick, drained",
+                    "ingredients_4": "1 tbsp sweet rice wine (mirim)",
+                    "ingredients_5": "1 tbsp corn syrup"
+                },
+                "cooking_method": {
+                    "method_1": "Make sure to have all your ingredients ready and in one place.Cut three sheets of seaweed in half and set them aside.",
+                    "method_2":"Place a full sheet of seaweed, shiny side down, longer side toward you, on a bamboo rolling mat.Spread about 1 cup of rice (1/6 amount) evenly on the seaweed leaving 1 inch of space at the end.Lay a half seaweed sheet in the middle of rice.Put filling ingredients on top of the half seaweed sheet in a contrasting color pattern.",
+                    "method_3":"Lift the entire end of mat from your side with both hands, roll over to cover the fillings, tucking in the filling with your fingers.Put firm pressure on the roll and continue to roll again as you roll away the mat until it reaches to the end.The finished roll should have an even thickness.Place on a platter, seam side down, while you are making another. Cut into 1/2 inch thick slices with a sharp knife."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 3,
+                "recipe_name": "DAKGANGJEONG (KOREAN CHICKEN NUGGETS)",
+                "about": "Dakgangjeong is a Korean dish made of crispy, bite-sized pieces of boneless chicken thigh that are coated in a sweet and spicy sauce. It is often served as a snack or appetizer.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2021/03/Korean-fried-chicken-nuggets1-800x1130.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken party wings - fresh or frozen (thawed)",
+                    "ingredients_2": "pureed ginger - reduce the gamy smell and adds a hint of aroma",
+                    "ingredients_3": "cornstarch - helps chicken to bind with the coating",
+                    "ingredients_4": "Korean chili paste (gochujang) - adds flavor, heat and thickness to the sauce",
+                    "ingredients_5": "apricot or strawberry jam - adds a fruity delicious taste in the sauce"
+                },
+                "cooking_method": {
+                    "method_1": "Heat oil in a wok or skillet over medium-low heat, to reach about 330˚F. Drop the chicken wings, shaking off the extra cornstarch coating, into the oil, and deep-fry for 3-4 minutes.The oil temperature shouldn’t be too hot and the chicken will fry slowly. If the oil bubbles vigorously, reduce the temperature.",
+                    "method_2":"After finishing all the batches of the first deep fry, raise the heat to medium, about 350˚F. Drop the chicken again into the hot oil and deep-fry until the coating turns a deep golden brown, about 1-2 minutes.Adjust the heat if it browns too quickly. Shake off the excess oil from the chicken and place them on a wire rack to allow the remaining oil to drip off the chicken.","method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper.",
+                    "method_3":"Using a pastry brush, apply sauce on the hot chicken wings. Alternately, you can pour the sauce over the chicken and toss them to coat. I prefer brushing so that I can control the amount of sauce per chicken.Garnish chicken wings with toasted sesame seeds or finely chopped nuts."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            }
+            
+
+        ]
         
     },
     {
-        "id":6,
-        "name":"Kim Baek-Hyun",
-        "img":"https://img.freepik.com/premium-photo/excited-asian-chef-wearing-uniform-standing-isolated-white-wall-gesturing-ok_171337-60620.jpg?w=740",
-        "experience":"2 years",
+        "id": 6,
+        "name": "Kim Baek-Hyun",
+        "img": "https://img.freepik.com/premium-photo/excited-asian-chef-wearing-uniform-standing-isolated-white-wall-gesturing-ok_171337-60620.jpg?w=740",
+        "experience": "2 years",
         "recipe": 7,
-        "likes":"500"
+        "likes": "500",
+        "recipe_info":[
+            {
+                "_id": 1,
+                "recipe_name": " BUDAE JJIGAE RECIPE (KOREAN ARMY STEW)",
+                "about": "Korean army stew, known as Budae Jjigae, is Korean-American fusion dish. It's made with canned processed meats such as Spam, but with the Korean flavor of kimchi, tofu, and instant ramen noodles.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/04/Budae-Jjigae-thumbnail-728x728.jpg",
+                "ingredients": {
+                    "ingredients_1": "beef & beans",
+                    "ingredients_2": "3 tbsp Korean chili flakes (gochugaru)",
+                    "ingredients_3": "1 tbsp Korean chili paste (gochujang)",
+                    "ingredients_4": "2/3 cup sour kimchi, sliced",
+                    "ingredients_5": "4 cup chicken stock, low sodium"
+                },
+                "cooking_method": {
+                    "method_1": "Mix together Korean chili flakes (gochugaru), gochujang, soy sauces, garlic, and pepper in a small mixing bowl; set aside.Put slices of onion on the bottom of a shallow pan. Arrange the jjigae fillings (Spam slices, hot dogs, sausage, tofu, mushroom, kimchi, and etc).",
+                    "method_2":"Add instant ramen noodles, cheese and the seasoning paste. Pour in enough stock to barely cover everything.Adding plain water results in bland tasting broth. I recommend using low-sodim (or no-salt) chicken stock instead of water to add more umami and depth to the flavor.",
+                    "method_3":"Place the pan on the stove (I recommend using a portable burner right on the table) and bring the stew to a boil. Reduce the heat to low and simmer. Stir the seasoning paste to distribute it throughout the stew. Stir ramen noodles to cook evenly in the simmering stock."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 2,
+                "recipe_name": "CRISPY KOREAN FRIED CHICKEN ",
+                "about": "Make tasty Korean fried chicken at home with this easy recipe and tips. Double fry the chicken for ultimate crispiness, then coat them in homemade gochujang sauce – all in 40 minutes. Serve it up for game night or share with family and friends for a Chimaek feast!",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/02/Korean-Fried-Chicken.jpg",
+                "ingredients": {
+                    "ingredients_1": "chicken party wings - fresh or frozen (thawed)",
+                    "ingredients_2": "pureed ginger - reduce the gamy smell and adds a hint of aroma",
+                    "ingredients_3": "cornstarch - helps chicken to bind with the coating",
+                    "ingredients_4": "Korean chili paste (gochujang) - adds flavor, heat and thickness to the sauce",
+                    "ingredients_5": "apricot or strawberry jam - adds a fruity delicious taste in the sauce"
+                },
+                "cooking_method": {
+                    "method_1": "Heat oil in a wok or skillet over medium-low heat, to reach about 330˚F. Drop the chicken wings, shaking off the extra cornstarch coating, into the oil, and deep-fry for 3-4 minutes.The oil temperature should not be too hot and the chicken will fry slowly. If the oil bubbles vigorously, reduce the temperature.",
+                    "method_2":"After finishing all the batches of the first deep fry, raise the heat to medium, about 350˚F. Drop the chicken again into the hot oil and deep-fry until the coating turns a deep golden brown, about 1-2 minutes.Adjust the heat if it browns too quickly. Shake off the excess oil from the chicken and place them on a wire rack to allow the remaining oil to drip off the chicken.","method-3": "Pan-Fry: Heat a tablespoon of oil on a non-stick surface skillet over high heat, add chicken pieces without crowding the space. You might need to pan-fry chicken in batches. Cook for 3-4 minutes per side until chicken is fully cooked. If the sauce burns and start sticking to the skillet, wipe out with a wet kitchen paper.",
+                    "method_3":"Using a pastry brush, apply sauce on the hot chicken wings. Alternately, you can pour the sauce over the chicken and toss them to coat. I prefer brushing so that I can control the amount of sauce per chicken.Garnish chicken wings with toasted sesame seeds or finely chopped nuts."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            },
+            {
+                "_id": 3,
+                "recipe_name": "AUTHENTIC BIBIMBAP",
+                "about": "Make authentic bibimbap at home in under an hour with tips, tool recommendations, and recipe variations. This dish features rice, sautéed vegetables, quick ground beef bulgogi, and a fried egg, topped with homemade bibimbap sauce.",
+                "image_url": "https://www.beyondkimchee.com/wp-content/uploads/2022/03/Bibimbap-3.jpg",
+                "ingredients": {
+                    "ingredients_1": "1 tbsp sesame oil",
+                    "ingredients_2": "1 tbsp toasted sesame seeds",
+                    "ingredients_3": "6 cup freshly cooked white rice.",
+                    "ingredients_4": "1 lb Korean radish, sliced into very thin matchsticks",
+                    "ingredients_5": "2 small zucchini, sliced."
+                },
+                "cooking_method": {
+                    "method_1": "Blanch sprouts in boiling water for 5 minutes and drain.Season with a a mixture of minced garlic, Korean soup soy sauce, salt, sesame oil, sesame seeds, and finely chopped green onions. Toss well.",
+                    "method_2":"Slice radish into thin matchsticks. Heat oil in a skillet over medium heat. Add minced garlic and cook for 30 seconds.Add radish slices and a couple pinches of salt, and toss well. Cover with a lid and cook until soft, about 2 minutes.Drizzle a little sesame oil. Taste and add more salt if needed.",
+                    "method_3":"Heat 1 tablespoon oil in a skillet over medium heat. Add garlic, zucchini slices, and salt. Stir fry until soft, about 1-2 minutes.Add sesame oil and sesame seeds. Toss well.Stir-fry watercress in hot oil with minced garlic; cook for 1 minute.Drizzle Korean soup soy sauce and cook until wilted.Add 1 tablespoon oil in a skillet, add the minced garlic and the mushrooms; stir fry for 1 minute. Drizzle Korean soup soy sauce and cook until soft.Stir-fry carrot in hot oil with salt and cook together for 30 seconds. Pour in 2 tablespoons water to create steam and cover with a lid immediately. Cook for 1-2 minutes until soft."
+                },
+                "rating": {
+                    "number": "4.6"
+                }
+            }
+            
+
+        ]
         
     }
 ]
