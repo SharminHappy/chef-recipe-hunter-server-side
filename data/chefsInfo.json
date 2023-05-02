@@ -5,7 +5,22 @@
         "img":"https://static.emol.cl/emol50/Fotos/2016/01/03/file_20160103115312.jpg",
         "experience":"10 years",
         "recipe": 20,
-        "likes":"10000"
+        "likes":"10000",
+        "recipe_info":[
+            {
+                "_id":1,
+                "name":"CHICKEN BULGOGI (KOREAN BBQ CHICKEN)",
+                "image_url":"https://www.beyondkimchee.com/wp-content/uploads/2021/01/Korean-spicy-chicken-bbq-1.jpg",
+                "ingredients":{
+                    "ingredients1":"gochujang (Korean chili paste): an essential Korean cooking ingredient",
+                    "ingredients2":"soy sauce",
+                    "ingredients3":"light brown sugar",
+                    "ingredients4":"garlic",
+                    "ingredients5":"sesame oil"
+                },
+                ""
+            }
+        ]
         
     },
     {
