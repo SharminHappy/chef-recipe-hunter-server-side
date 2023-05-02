@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "name":"Jungsik Yim",
+        "img":"https://static.emol.cl/emol50/Fotos/2016/01/03/file_20160103115312.jpg",
+        "experience":"10 years",
+        "recipe": 20,
+        "likes":"10000"
+        
+    },
+    {
+        "id":2,
+        "name":"Jim Deo",
+        "img":"https://img.freepik.com/free-photo/happy-cook-smelling-salad-with-meat-plate_23-2148040176.jpg?w=740&t=st=1683011874~exp=1683012474~hmac=edf353f2da75fe41a2de304b08a94f66a2637024033e9ca5543ad3af3c06d956",
+        "experience":"3 years",
+        "recipe": 10,
+        "likes":"1000"
+        
+    },
+    {
+        "id":3,
+        "name":"Grant Achatz",
+        "img":"https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=740&t=st=1683039589~exp=1683040189~hmac=4dd690cc2211d0e3b6761e7ceea83001e0ce7c6e9b8059772c2e7f29337d8bec",
+        "experience":"5 years",
+        "recipe": 8,
+        "likes":"5000"
+        
+    },
+    {
+        "id":4,
+        "name":"Sant Maria",
+        "img":"https://img.freepik.com/free-photo/female-chef-standing-with-crossed-arms-white-uniform-looking-happy_176474-13476.jpg?w=740&t=st=1683039732~exp=1683040332~hmac=5fbbea06c812ef54bdd1e70593321b0d7ee8c79cd3f5d0b956c98be5ce09e94c",
+        "experience":"6 years",
+        "recipe": 15,
+        "likes":"10000"
+        
+    },
+    {
+        "id":5,
+        "name":"Kim Yun",
+        "img":"https://img.freepik.com/free-photo/experienced-sushi-chef-asian-woman-putting-sushi-plate-looking-inspired_259150-58660.jpg?w=740&t=st=1683039805~exp=1683040405~hmac=4148633eb882fb3364732b64362b91cd25e21c35e3ad64bb810a0676698fbede",
+        "experience":"2 years",
+        "recipe": 6,
+        "likes":"9000"
+        
+    },
+    {
+        "id":6,
+        "name":"Kim Baek-Hyun",
+        "img":"https://img.freepik.com/premium-photo/excited-asian-chef-wearing-uniform-standing-isolated-white-wall-gesturing-ok_171337-60620.jpg?w=740",
+        "experience":"2 years",
+        "recipe": 7,
+        "likes":"500"
+        
+    }
+]
