@@ -6,10 +6,7 @@ const port= 5000;
 
 const chefsInfo=require('./data/chefsInfo.json');
 const viewChefRecipes=require('./data/chefsInfo.json');
-
-
-
-
+const details=require('./data/chefsInfo.json');
 
 app.use(cors());
 
@@ -23,13 +20,6 @@ app.get('/chefsInfo',(req,res)=>{
     res.send(chefsInfo);
 })
 
-app.get('/chefInfo/:id',(req,res)=>{
-    const id=req.params.id;
-    console.log(id);
-    const selectedChefInfo=chefsInfo.find(n=>n.id == id);;
-    res.send(selectedChefInfo)
-})
-
 app.get('/viewChefRecipes',(req,res)=>{
     res.send(viewChefRecipes);
 })
@@ -39,6 +29,19 @@ app.get('/viewChefRecipes/:id',(req,res)=>{
     const selectedViewChefsRecipes= viewChefRecipes.find(n=>n.id ==id);
     res.send(selectedViewChefsRecipes)
 
+})
+
+app.get('/details',(req,res)=>{
+    res.send(details);
+})
+
+app.get('/details/:id',(req,res)=>{
+    
+    const id=req.params.id;
+    const some=id.split('-');
+    const selectedDetails=details.find(s=>s.id == some[0]);
+     res.send(selectedDetails.recipe_info.find(s=>s.recipe_id == some[1]))
+  
 })
 
 app.listen(port,()=>{
